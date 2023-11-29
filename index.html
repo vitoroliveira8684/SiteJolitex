@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head
+    <meta charset="UTF-8">
+    <title> Desenvolvimento de Sites</title>
+    <link rel="stylesheet" type="text/css" href="css/folhadeestilo.css">
+</head>
+<body>
+    <!-- Container do Menu Principal-->
+    <div class="containerPrincipal">
+        <!-- Header é uma tag do HTML5 especifica pro menu-->
+        <header>
+            <!--Um div separado pra logo da empresa-->
+            <div class="logo">
+                <!-- um direcionamento pro site principal quando clicar na logo-->
+                <a href="index.html">
+                    <img src="imagem/logoJolitex.png" alt="Jolitex Ternille">
+                </a>
+            </div>
+
+
+            <!--Criando três divs que vão ser equivalentes a 3 pop-ups-->
+            <div id="openModal1" class="modalDialog">
+                <a href="#close" class="close">X</a>
+                <h1>Jolitex Ternile</h1>
+                <p><strong>A Jolitex Ternille é uma empresa brasileira renomada e consolidada no setor têxtil, 
+                    com uma trajetória marcada por dedicação à qualidade e inovação. Há mais de 65 
+                    anos no mercado, a Jolitex Ternille se destaca como referência na fabricação de produtos para cama, 
+                    mesa e banho, com ênfase em cobertores, mantas e edredons. <br><br>Nossa missão é proporcionar conforto e bem-estar aos lares brasileiros por meio de produtos que aliam qualidade, 
+                    design e durabilidade. Acreditamos que cada peça têxtil que produzimos é mais do que um item funcional; 
+                    é uma expressão de carinho e aconchego que faz parte do dia a dia das famílias em todo o país.<br><br>Com um compromisso constante com a inovação, 
+                    a Jolitex Ternille investe em tecnologias avançadas e materiais de alta qualidade para garantir a satisfação de nossos clientes. 
+                    Nosso extenso portfólio oferece opções para todos os gostos e necessidades, 
+                    desde peças clássicas e elegantes até criações modernas que refletem as últimas tendências de estilo.</p>
+            </div>
+
+
+
+        </header>
+
+        <!--Container NAV específico para insersão de direcionamentos. É uma lista que contém todos os direcionamentos do site-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <!--Adicionando banner de fundo-->
+    <section id='banner'>
+        <img src="imagem/imagemFundo.jpg" alt="banner">
+    </section>
+
+
+    <footer>
+        <div class="txtRodape">
+            <h3><a href="#openModal1"class="linkrodape">Saiba mais sobre a Jolitex</a></h3>
+        </div>
+    </footer>
+</body>
+
+
+
+
+
+
+</html>
